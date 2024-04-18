@@ -1,0 +1,18 @@
+/* .box h2 ~ p{
+    color:red;
+} */
+/* .box p + h2 {
+    color: red;
+} */
+
+/* .box p + h2, .box p + h2 + h2 {
+    color: red;
+} */
+ 
+/* .box h2+h2{
+    color :red;
+} */
+
+.todos input:checked ~ span{
+    color: red;
+}

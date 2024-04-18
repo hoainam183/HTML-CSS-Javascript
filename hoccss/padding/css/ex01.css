@@ -1,0 +1,14 @@
+.box{
+    width: 400px;
+    border: 1px solid red;
+    padding: 15px;
+}
+
+.link{
+    border: 1px solid red;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline-block;
+}

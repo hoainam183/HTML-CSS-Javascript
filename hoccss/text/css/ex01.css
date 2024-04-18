@@ -1,0 +1,24 @@
+/* .content{
+    color: red;
+} */
+
+/* .box{
+    color:rgba(255, 0, 0, 0.418);
+} */
+/*
+2. gia tri ke thua 
+-inherit: ke thua tu thanh phan cha truc tiep
+-initial: kr thua mac dinh trinh duyet
+*/
+body{
+    color: green;
+}
+.content{
+    color: red;
+}
+/* .content p{
+    color: inherit;
+} */
+.content p:hover{
+    color: initial;
+}
