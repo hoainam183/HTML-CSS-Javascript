@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form 
+        action="https://api-gateway.fullstack.edu.vn/action_page.php"
+        method="post"
+    >
+        <div>
+            <input type="text" name="name" placeholder="Ho va Ten" >
+        </div>
+        <div>
+            <input type="email" name="email" placeholder="Email" >
+        </div>
+        <button>Submit</button>
+    </form> -->
+
+    <form action="">
+        <div>
+            <label for="name">Ho ten</label>
+            <input 
+                type="text" 
+                name="name" id="name" 
+                placeholder="Ho va Ten..." 
+                required
+            >
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input 
+                type="email" 
+                name="email" 
+                id="email" 
+                placeholder="Email"
+            >
+        </div>
+
+        <div>
+            <label for="password">password</label>
+            <input 
+                type="password" 
+                name="password" 
+                id="password" 
+                placeholder="password"
+            >
+        </div>
+
+        <div>
+            <label for="age">Tuoi</label>
+            <input 
+                type="number" 
+                name="age" 
+                id="age" 
+                placeholder="Tuoi"
+                min="18"
+            >
+        </div>
+
+        <div>
+            <label for="avatar">Avatar</label>
+            <input 
+                type="file" 
+                name="avatar" 
+                id="avatar" 
+                placeholder="avatar"
+            >
+        </div>
+
+        <div>
+            <label>Gioi tinh</label>
+            <label><input type="radio" name="gender" value="0">Khong xac dinh</label>
+            <label><input type="radio" name="gender" value="1" checked>Nam</label>
+            <label><input type="radio" name="gender" value="2">Nu</label>
+        </div>
+
+        <div>
+            <label>Nguon</label>
+            <label><input type="checkbox" name="source" value="1" checked>Facebook</label>
+            <label><input type="checkbox" name="source" value="2">Google</label>
+            <label><input type="checkbox" name="source" value="3">Khong biet</label>
+        </div>
+
+        <!-- <div>
+            <label for="message">Tin nhan</label>
+            <textarea 
+                name="message" 
+                id="message" 
+                placeholder="Tin nhan..." 
+                cols="30" 
+                rows="10">
+            F8 hoc lap trinh
+            </textarea>
+        </div> -->
+
+        <div>
+            <label for="privinces">Tinh/Thanh pho</label>
+            <select name="privinces" id="privinces">
+                <option value="0" hidden>Chon tinh thanh pho</option>
+                <optgroup label="Mien Bac">
+                    <option value="1">Ha Noi</option>
+                    <option value="2">Thai Binh</option>
+                    <option value="3">Nam Dinh</option>
+                </optgroup>
+                <optgroup label="Mien Trung">
+                    <option value="4">Nghe An</option>
+                </optgroup>
+                <optgroup label="Mien Nam">
+                    <option value="5">Vung Tau</option>
+                </optgroup>
+            </select>
+
+        </div>
+        <button>Submit</button>
+        <button type="button">Button</button>
+        <button type="reset">Nhap lai</button>
+    </form>
+</body>
+</html>

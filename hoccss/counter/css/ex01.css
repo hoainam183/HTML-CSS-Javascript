@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.songs{
+    width: 300px;
+    margin: 30px auto;
+    border: 1px solid red;
+    counter-reset: song-item;
+}
+
+.songs .item{
+    padding: 10px 20px;
+    border-bottom: 1px solid gray;
+    counter-increment: song-item;
+}
+
+.songs .children{
+    counter-reset: song-children;
+    padding-left: 20px;
+}
+.songs .children .item{
+    counter-increment: song-children;
+}
+
+.songs .children .item::before{
+    content: "#" counter(song-item)"." counter(song-children);
+}
+.songs .item::before{
+    content:"#"counter(song-item);
+    display:block;
+    width: 30px;
+    height: 30px;
+    background: green;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+/*
+Tao bo dem CSS
+1. Khoi tao bo dem
+2. Dem
+3. Goi bo dem vao before, after
+*/

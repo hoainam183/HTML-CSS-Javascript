@@ -1,0 +1,23 @@
+/* .website [target] {
+    color:red;
+} */
+
+/* .website a[href="https://fullstack.edu.vn/"] {
+    color: red;
+} */
+
+/* .website a[href^="https://fullstack.edu.vn/"] {
+    color: red;
+} */
+
+/* .website a[href*="fullstack.edu.vn/"] {
+    color: red;
+} */
+
+/* .images a[href$=".jpg"]{
+    color: red;
+} */
+
+[class^="item-"]{
+    border: 1px solid red;
+}

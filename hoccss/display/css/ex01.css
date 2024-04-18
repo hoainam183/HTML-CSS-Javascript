@@ -1,0 +1,16 @@
+/*
+thuoc tinh display thay doi che do hien thi cua mot elements
+- none: an
+- block: chuyen thanh dang block
+- inline: chuyen thanh dang inline
+- inline-block: chuyen thanh dang block tuy nhien ho tro nam tren 1 dong 
+*/
+
+.box{
+    border: 1px solid red;
+    padding: 5px 15px;
+    /* display: none; */
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}

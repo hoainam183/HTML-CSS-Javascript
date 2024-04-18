@@ -1,0 +1,29 @@
+/*
+width height chi hoat dong voi the block
+*/
+/*
+vw: viewport width
+vh: viewport height
+*/
+
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+}
+.container{
+    border: 1px solid red;
+    width: 400px;
+}
+
+.img{
+    width:500px;
+    height: auto;
+}
+
+/* .span{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    display: block;
+} */
