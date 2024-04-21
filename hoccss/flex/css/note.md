@@ -5,6 +5,7 @@
 + row-reverse
 + column
 + column-reverse
+
 - justify-content
 + flex-start
 + flex-end
@@ -12,6 +13,7 @@
 + space-around 
 + space-evenly
 + space-between
+
 - align-items: căn chỉnh các item theo hướng vuông góc với trục chính
 + strech: default
 + flex-start
@@ -23,3 +25,11 @@
 + nowrap 
 + wrap 
 - align-content: Căn chỉnh hàng cột theo hướng vuông gốc với trục chính
+## Các thuộc tính trong nhóm Flex Item
+- flex-grow: Dãn đều các item
+=> Số nguyên: 0 - không giãn, 1: gián đều
+- flex-shrink
+- flex-basic
++ Bị chặn bởi min-width và max-width nếu là row
+
+-flex: flex-grow shrink basis

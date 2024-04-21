@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.box{
+    border: 1px solid red;
+    padding: 15px;
+}
+
+.box h2{
+    /* transition-property: padding-left,color,padding-top; */
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+.box h2:hover{
+    padding-left: 100px;
+    /* padding-top: 100px; */
+    color: green;
+}
+
+/*
+transition: làm chậm quá trình thay đổi giá trị thuộc tính CSS
+- transition-property: tenthuoctinh
+- transition-duration: thoigian (s,ms)
+- transition-delay: thoigian (s,ms)
+*/
