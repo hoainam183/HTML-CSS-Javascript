@@ -11,10 +11,13 @@
 }
 
 .box h2{
-    /* transition-property: padding-left,color,padding-top; */
-    transition: all;
-    transition-duration: 1s;
-    transition-delay: 1s;
+    /* transition-property: padding-left padding-top; */
+    /* transition-duration: 2s; */
+    /* transition-delay: 0s; */
+    /* transition-timing-function: ease; */
+    transition: 0.4s linear;
+    transition-property: padding-left;
+
 }
 .box h2:hover{
     padding-left: 100px;
@@ -27,4 +30,9 @@ transition: làm chậm quá trình thay đổi giá trị thuộc tính CSS
 - transition-property: tenthuoctinh
 - transition-duration: thoigian (s,ms)
 - transition-delay: thoigian (s,ms)
+- transiotion-timing-function
++ ease: cham - nhanh -cham
++ linear: toc do deu
++ ease-in: cham - nhanh
++ cubic-bezier: chia thanh 4 giai doan nhan tu 0-1 cang be chay cang nhanh
 */
