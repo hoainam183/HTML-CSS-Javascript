@@ -23,3 +23,28 @@
 //         clearInterval(id);
 //     }
 // },1000)
+
+// var showNumber = function(n){
+//     console.log(n);
+//     if(n>1) {
+//         showNumber(n-1);
+//     }
+// }
+// showNumber(10);
+
+// var s =0;
+// var solve = function(n){
+//     if(n==1) return 1;
+//     return n + solve(n-1);
+// }
+// console.log(solve(10));
+
+//fibonaci
+var fibonaci = function(n){
+    // if(n<0) return 0;
+    if(n==1) return 1;
+    if(n==2) return 1;
+    return fibonaci(n-1) + fibonaci(n-2);
+}
+
+console.log(fibonaci(6));
