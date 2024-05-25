@@ -62,8 +62,9 @@ Person.isPerson = function(variable){
     return variable && variable.constructor.name==="Person";
 }
 
-if(isPerson(person)){
+if(Person.isPerson(person)){
     console.log("Day la Person");
 } else {
     console.log("Khong phai la Person");
 }
+
